@@ -54,6 +54,22 @@ paths:
             '*/*':
               schema:
                 $ref: "#/components/schemas/RESTAPIResponse_CompetitionParticipantDTO"
+  /startCommission:
+    post:
+      description: ""
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/StartCommissionRequest"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                $ref: "#/components/schemas/RESTAPIResponse_Unit"
 components:
   schemas:
     CreateWineRequest:
@@ -270,3 +286,17 @@ components:
           $ref: "#/components/schemas/Error"
         metadata:
           type: "string"
+    StartCommissionRequest:
+      type: "object"
+      properties:
+        auid:
+          type: "integer"
+          format: "int64"
+        commissionId:
+          type: "string"
+        tokenId:
+          type: "string"
+      required:
+        - "auid"
+        - "commissionId"
+        - "tokenId"

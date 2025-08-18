@@ -23,3 +23,4 @@ tags:
 ## Table of content
 #### [[WineLore™ Key Terms]]
 #### [[WineLore™ REST API]]
+#### [[WineLore™ Design Guidelines]]
