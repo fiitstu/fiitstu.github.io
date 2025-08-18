@@ -54,6 +54,22 @@ paths:
             '*/*':
               schema:
                 $ref: "#/components/schemas/RESTAPIResponse_CompetitionParticipantDTO"
+  /getCommissionsByParticipant:
+    post:
+      description: ""
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GetCommissionsByParticipantRequest"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                $ref: "#/components/schemas/RESTAPIResponse_List<? extends PairOfCommissionAndCommissionParticipantDTO>"
   /startCommission:
     post:
       description: ""
@@ -282,6 +298,70 @@ components:
           type: "boolean"
         data:
           $ref: "#/components/schemas/CompetitionParticipantDTO"
+        error:
+          $ref: "#/components/schemas/Error"
+        metadata:
+          type: "string"
+    GetCommissionsByParticipantRequest:
+      type: "object"
+      properties:
+        auid:
+          type: "integer"
+          format: "int64"
+        pagination:
+          $ref: "#/components/schemas/Pagination"
+      required:
+        - "auid"
+        - "pagination"
+    PairOfCommissionAndCommissionParticipantDTO:
+      type: "object"
+      properties:
+        competitionId:
+          type: "string"
+        name:
+          type: "string"
+        isApproved:
+          type: "boolean"
+        currentWineSampleId:
+          type: "string"
+          nullable: true
+        startedAt:
+          type: "integer"
+          format: "int64"
+          nullable: true
+        endedAt:
+          type: "integer"
+          format: "int64"
+          nullable: true
+        commissionId:
+          type: "string"
+        participantId:
+          type: "string"
+        auid:
+          type: "integer"
+          format: "int64"
+        role:
+          type: "string"
+          enum:
+            - "HEAD_OF_EXPERTS"
+            - "EXPERT"
+      required:
+        - "competitionId"
+        - "name"
+        - "isApproved"
+        - "commissionId"
+        - "participantId"
+        - "auid"
+        - "role"
+    RESTAPIResponse_List<? extends PairOfCommissionAndCommissionParticipantDTO>:
+      type: "object"
+      properties:
+        success:
+          type: "boolean"
+        data:
+          type: "array"
+          items:
+            $ref: "#/components/schemas/PairOfCommissionAndCommissionParticipantDTO"
         error:
           $ref: "#/components/schemas/Error"
         metadata:
