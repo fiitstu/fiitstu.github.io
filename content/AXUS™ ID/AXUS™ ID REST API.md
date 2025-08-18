@@ -6,16 +6,17 @@ tags:
 ---
 >[!summary]
 >- [[AXUS™ ID REST API]] **Endpoint** is `http://developed-hybrid.gl.at.ply.gg:26640`
->- Download [OpenAPI Specification](https://en.wikipedia.org/wiki/OpenAPI_Specification) here: [[AXUS™ ID OpenAPI Specification.yaml]]
+>- View and test [[#API Reference]] here: [AXUS™ ID API Reference Online](https://axus.apidocumentation.com/axusidserver-api)
+>- Download [[#API Reference]] in [OpenAPI](https://en.wikipedia.org/wiki/OpenAPI_Specification) format here: [[AXUS™ ID API Reference.yaml]]
 
-One of ways to interact with the [[AXUS™ ID]] system is traditional **REST API**. The [[AXUS™ ID REST API]] **Endpoint** address is `http://developed-hybrid.gl.at.ply.gg:26640`. See [[#OpenAPI]] section to get **REST API** specification with all supported  methods and information about them.
-## OpenAPI
-Download our [OpenAPI Specification](https://en.wikipedia.org/wiki/OpenAPI_Specification) here: [[AXUS™ ID OpenAPI Specification.yaml]].
+One of ways to interact with the [[AXUS™ ID]] system is traditional **REST API**. The [[AXUS™ ID REST API]] **Endpoint** address is `http://developed-hybrid.gl.at.ply.gg:26640`. See [[#API Reference]] section to get **REST API** specification with all supported  methods and information about them.
+## API Reference
+Download our [[#API Reference]] in [OpenAPI](https://en.wikipedia.org/wiki/OpenAPI_Specification) format here: [[AXUS™ ID API Reference.yaml]].
 
-You can view it easily, for example, in [Swagger Editor Next](https://editor-next.swagger.io/) by importing the specification via the **URL** below, the `.yaml` file attached above or just by copy-pasting content of the specification into [Swagger Editor Next](https://editor-next.swagger.io/).
+You can view and test it online here: [AXUS™ ID API Reference Online](https://axus.apidocumentation.com/axusidserver-api).
 
-Direct link to [OpenAPI Documentation](https://en.wikipedia.org/wiki/OpenAPI_Specification): `https://axusinc.github.io/AXUS%E2%84%A2-ID/AXUS%E2%84%A2-ID-OpenAPI-Specification.yaml`
+Direct link to the [[#API Reference]] in [OpenAPI](https://en.wikipedia.org/wiki/OpenAPI_Specification) format: `https://axusinc.github.io/AXUS%E2%84%A2-ID/AXUS%E2%84%A2-ID-API-Reference.yaml`
 
 > [!warning]
-> Please note that all posible fields were specified in the responses in [OpenAPI Documentation](https://en.wikipedia.org/wiki/OpenAPI_Specification). So even if an example method response in [OpenAPI Documentation](https://en.wikipedia.org/wiki/OpenAPI_Specification) has both `error` and `data` fields specified, that, of course, doesn't means that the method can **fail successfully** :) As much as possible fields where included in examples to show all aspects of possible responses.
+> Please note that all posible fields were specified in the responses in [[#API Reference]]. So even if an example method response in [[#API Reference]] has both `error` and `data` fields specified, that, of course, doesn't means that the method can **fail successfully** :) As much as possible fields where included in examples to show all aspects of possible responses.
 
