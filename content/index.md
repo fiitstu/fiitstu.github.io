@@ -1,22 +1,17 @@
 ---
-title: AXUS™ Information Portal
+title: FIIT STU Information Portal
 draft: false
 tags:
 ---
+*Unofficial* FIIT STU Information Portal.
 ## Welcome!
-Here all the neccessary information about [[AXUS™]] is collected (or will be available here in the future).
-#### Products
-
-| Product              | Description                               | Wiki             | Development |
-| -------------------- | ----------------------------------------- | ---------------- | ----------- |
-| **[[AXUS™ ID]]**     | Universal Authorization & Identity System | 🟠 Public Draft  | 🟢 Active   |
-| **[[MasterPay™]]**   | Cryptowallet with NFC support             | 🔴 Not Available | 🟢 Active   |
-| **[[MasterMiner™]]** | Android CPU Cryptominer based on XMRig    | ⚫ Not Planned    | 🔵 Paused   |
-| **[[WineLore™]]**    | Electronic Wine Judging System            | 🟠 Temporary     | 🟢 Active   |
-#### Global Guidelines
-- [[AXUS™ Default Exception System]]
+On this website we try to collect all the essential and useful information about [[FIIT STU]], including advises, unviersity news, tutorials, notes on lectures, etc.
+#### [[Subjects]]
+- [[Algebra and Discrete Mathematics]]
+- [[Calculus]]
+- [[Principles of Computer Engineering]]
+- [[Procedural Programming]]
 ## Our Contacts
-* `@likespro_eth` on **X**.
 * likespro.eth@gmail.com — **email**.
 * `@likespro_eth` on **Telegram**.
 ## Latest News
@@ -25,6 +20,4 @@ Here all the neccessary information about [[AXUS™]] is collected (or will be a
 
 ---
 
-AXUS, AXUS ID, MasterPay, MasterMiner, likespro, AXUS logo & likespro logo are unregistered trademarks and the property of likespro (Andrii Mykhalko).
-
-All rights reserved (c) Andrii Mykhalko
+Powered by [FIIT 1st Year Discord](https://discord.gg/cb5vY5d63j)
