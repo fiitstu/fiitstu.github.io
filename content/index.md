@@ -6,6 +6,8 @@ tags:
 *Unofficial* FIIT STU Information Portal.
 ## Welcome!
 On this website we try to collect all the essential and useful information about [[FIIT STU]], including advises, unviersity news, tutorials, notes on lectures, etc.
+#### [[General Tutorials]]
+- [[How to connect STU e-mail to Apple Mail]]
 #### [[Subjects]]
 - [[Algebra and Discrete Mathematics]]
 - [[Calculus]]
@@ -14,9 +16,6 @@ On this website we try to collect all the essential and useful information about
 ## Our Contacts
 * likespro.eth@gmail.com — **email**.
 * `@likespro_eth` on **Telegram**.
-## Latest News
-###### `2025/08/12` `20:59` **[[AXUS™ ID]]** [[Exceptions were improved]]
-###### `2025/08/12` `19:28` **[[AXUS™ ID]]** [[ANYONE AUID is replaced by NULL]]
 
 ---
 
